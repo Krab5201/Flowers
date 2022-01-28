@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+    font-family: 'Poppins', serif;
+    background-color: #F4F4F4;
+}
+header{
+    background-color: #272239;
+    max-width: 1300px;
+    max-height: 90px;
+}
+.logo{
+    margin-top: 15px;
+    max-width: 150px;
+    max-height: 70px;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-decoration: none;
+}
+header nav:hover{
+    color: black;
+}
+.nav a{
+    margin-top: -50px;
+    padding-left: 50px;
+	text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.nav a:hover{
+    color: palevioletred;
+}
+main{
+    background-color: #F4F4F4;
+}
+.container h1{
+    margin-left: 100px;
+    max-width: 250px;
+    color: #590572;
+    text-decoration: underline;
+}
+.container p{
+    margin-left: 100px;
+    max-width: 300px;
+}
+.tickets{
+    margin-right: 640px;
+    border: 5px solid #DFB3F8;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    
+}
+form input{
+   margin: 10px;
+   height: 20px;
+   font-size: 16px;
+   border-radius: 5px;
+   padding-left: 15px;
+   border: 1px solid #D186FB; 
+   border-bottom-width: 2px;
+}
+form textarea{
+   font-size: 16px;
+   border-radius: 5px;
+   padding-left: 15px;
+   border: 1px solid #D186FB; 
+   border-bottom-width: 2px;
+}
+.connection{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    background-color: #F6E6FF;
+}
+.social img{
+    max-width: 40px;
+    max-height: 40px;
+}
+footer{
+    padding-bottom: 1px;
+}
+h2{
+    font-weight: 900;
+}
+.tickets button{
+    max-width: 200px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 3px solid #C586E9;
+    background-color: #DFB3F8;
+}
+.tickets img{
+    max-width: 450px;
+    max-height: 400px;
+}

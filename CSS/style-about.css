@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+    font-family: 'Poppins', serif;
+}
+header{
+    background-color: #272239;
+    max-width: 1300px;
+    max-height: 90px;
+}
+.logo{
+    margin-top: 15px;
+    max-width: 150px;
+    max-height: 70px;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-decoration: none;
+}
+header nav:hover{
+    color: black;
+}
+.nav a{
+    margin-top: -50px;
+    padding-left: 50px;
+	text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.nav a:hover{
+    color: palevioletred;
+}
+main{
+    background-color: #473954;
+    max-width: 1300px;
+    height: 650px;
+}
+.description h1{
+    margin-top: 0px;
+    margin-left: 100px;
+    padding-top: 20px;
+    max-width: 100px;
+    color: white;
+    text-decoration: underline;
+}
+.twotext{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    max-width: 850px;
+    margin-left:350px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+.threetext{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-left: 190px;
+    max-width: 1000px;
+    opacity: 0.8;
+}
+.description p{
+    margin-top: 20px;
+    margin-left: 90px;
+    color: white;
+    font-size: 14px;
+}
+.base{
+    background-color: #966CBC;
+    max-width: 1100px;
+    min-height: 300px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+}
+.base-text p{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 600px;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+.base-img img{
+    max-width: 300px;
+    max-height: 300px;
+    margin-bottom: -16px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.column img{
+    max-width: 220px;
+    padding-right: 100px;
+}
+.column p{
+    max-width: 250px;
+}
+.person{
+    margin-right: 50px;
+}
+.person img{
+    margin-top: 5px;
+    max-width: 50px;
+}
+.person p{
+    max-width: 500px;
+    text-align: left;
+}
